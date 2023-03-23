@@ -6,7 +6,7 @@ export const getData = createAsyncThunk(
     "reviewSlice/getData",
     async (data, { rejectWithValue, dispatch }) => {
         try {
-            const response = await axios.get(`http://localhost:8000/${data.documentType}/${data.documentId}`)
+            const response = await axios.get(`http://1333298-cs61116.tw1.ru/:8000/${data.documentType}/${data.documentId}`)
             const dataArray = []
 
             response.data.forEach(item => {
