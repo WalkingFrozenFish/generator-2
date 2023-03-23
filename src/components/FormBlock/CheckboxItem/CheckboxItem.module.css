@@ -1,0 +1,41 @@
+.item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.item:nth-child(odd) {
+    background-color: #cccccc05;
+}
+
+.item:nth-child(even) {
+    background-color: #cccccc2c;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    padding: 5px;
+}
+
+.messageCell {
+    max-width: 100%;
+}
+
+.pointCell {
+    text-align: center;
+    width: 100px;
+}
+
+.notCheck {
+    width: 30px;
+    background-color: transparent;
+}
+
+.check {
+    width: 30px;
+    background-color: #ffb20c;
+}
